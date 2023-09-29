@@ -92,9 +92,10 @@ section.menuPrincipal{
         transition: 3s;
         transform: scale(1.7);
     }
-    
+
     .imgContenedor2{
         height: 330px;
+        width: auto;
     }
 
     .textoInfografia{
