@@ -71,6 +71,15 @@ section.menuPrincipal{
     margin-bottom: 30px;
 }
 
+.pieDePagina{
+    background-color: #4a471e;
+    max-height: 200px;
+}
+
+.pieDePagina p{
+    color: white;
+}
+
 @media (min-width: 1200px) {
     .imgContenedor:hover{
         transition: 3s;
