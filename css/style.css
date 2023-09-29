@@ -73,7 +73,10 @@ section.menuPrincipal{
 
 .pieDePagina{
     background-color: #4a471e;
-    height: 200px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
 }
 
 .pieDePagina p{
