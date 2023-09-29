@@ -46,7 +46,7 @@ section.menuPrincipal{
 
 .BannerPrincipal img{
     width: 100%;
-    min-height: 200px;
+    max-height: 200px;
     object-fit: cover;
 }
 
@@ -73,7 +73,7 @@ section.menuPrincipal{
 
 .pieDePagina{
     background-color: #4a471e;
-    max-height: 200px;
+    height: 200px;
 }
 
 .pieDePagina p{
@@ -81,6 +81,10 @@ section.menuPrincipal{
 }
 
 @media (min-width: 1200px) {
+    .BannerPrincipal img{
+        max-height: 500px;
+    }
+    
     .imgContenedor:hover{
         transition: 3s;
         transform: scale(2.5);
