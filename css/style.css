@@ -65,18 +65,20 @@ section.menuPrincipal{
     justify-content: end;
 }
 
-.imgContenedor:hover{
-    transition: 3s;
-    transform: scale(2.5);
-}
-
-.imgContenedor2:hover{
-    transition: 3s;
-    transform: scale(1.7);
-}
-
 .seccionFinal{
     border: 2px solid black;
     padding: 10px;
     margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+    .imgContenedor:hover{
+        transition: 3s;
+        transform: scale(2.5);
+    }
+    
+    .imgContenedor2:hover{
+        transition: 3s;
+        transform: scale(1.7);
+    }    
 }
