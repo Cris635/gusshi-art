@@ -54,8 +54,8 @@ section.menuPrincipal{
     width: 100%;
 }
 
-.imgContenedor2{
-    width: 100%;
+.seccionDos{
+    text-align: center;
 }
 
 .seccionFinal{
@@ -96,12 +96,5 @@ section.menuPrincipal{
     .imgContenedor2{
         height: 330px;
         width: auto;
-    }
-
-    .textoInfografia{
-        height: 100%;
-        flex-direction: column;
-        display: flex;
-        justify-content: end;
     }
 }
