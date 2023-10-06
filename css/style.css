@@ -50,7 +50,7 @@ section.menuPrincipal{
     object-fit: cover;
 }
 
-.imgContenedor{
+.imgContenedor, .imgContenedor2{
     width: 100%;
 }
 
@@ -95,6 +95,11 @@ section.menuPrincipal{
 
     .imgContenedor2{
         height: 330px;
+    }
+}
+
+@media (min-width: 768px){
+    .imgContenedor2{
         width: auto;
     }
 }
